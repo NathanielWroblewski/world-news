@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+  width:  100%;
+  padding: 0;
+  margin:  0;
+  background-color: #FFF;
+  font-family: 'Libre Baskerville' sans-serif;
+  color: #666;
+}
+
+.articles {
+  position: fixed;
+  right:  0;
+  top:    0;
+  bottom: 0;
+  width: 33%;
+  border-left: 2px solid #eee;
+  padding: 50px 100px;
+  overflow: scroll;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.articles .headline {
+  font-family: 'Montserrat' sans-serif;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.articles .date,
+.articles .author {
+  display: inline-block;
+  margin: 0;
+  color: #aaa;
+  font-style: italic;
+}
+
+.articles .author {
+  padding-left: 6px;
+}
+
+.articles .story {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin-bottom: 100px;
+  color: #aaa;
+}
+
+.articles .story p {
+  margin-bottom: 1.7em;
+}
+
+.globe {
+  position: fixed;
+  top:    0;
+  bottom: 0;
+  left:   0;
+  width: 100%;
+  background-color: #eee;
+}
+
+svg {
+  pointer-events: all;
+}
+
+path {
+  fill: #aaa;
+  stroke: #eee;
+}
+
+.active {
+  fill: #666;
+}
+
+path:hover {
+  fill: #bbb;
+}
+
+path.active:hover {
+  fill: #777;
+}
+
+.loading {
+  margin: 50% auto;
+  display: block;
+}
+
+.instructions {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-style: italic;
+  color: #aaa;
+}
+
+a {
+  color: #666;
+}
+
+
+/* Small screens */
+@media only screen and (max-width: 400px) {
+
+  .articles {
+    top:    300px;
+    left:   0;
+    right:  0;
+    bottom: 0;
+    width: 80%;
+    border-top: 2px solid #eee;
+    border-left: none;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
