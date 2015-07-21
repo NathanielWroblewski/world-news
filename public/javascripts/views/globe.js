@@ -25,7 +25,7 @@ News.Views.Globe = function(config) {
   }
 
   this.handleMouseMove = function() {
-    if (this.model.getTempOrigin()) {
+    if (this.model.getMouse()) {
       this.model.move([d3.event.pageX, d3.event.pageY])
       this.refresh()
     }
