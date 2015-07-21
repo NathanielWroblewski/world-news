@@ -38,7 +38,7 @@ News.Views.Articles = function(config) {
   }
 
   this.loadingTemplate = function() {
-    return '<img class="loading" src="/public/images/spinner.gif" />'
+    return '<img class="loading" src="/world-news/public/images/spinner.gif" />'
   }
 
   this.render = function() {
