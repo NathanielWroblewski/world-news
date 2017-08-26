@@ -1,7 +1,7 @@
 !function() {
   var articles = new News.Collections.Articles({
     model:  News.Models.Article,
-    url:    'http://content.guardianapis.com/search',
+    url:    'https://content.guardianapis.com/search',
     apiKey: '46x8g8hxfrxk5az6akhtz8rw'
   })
 
