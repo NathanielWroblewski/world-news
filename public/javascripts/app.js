@@ -2,7 +2,7 @@
   var articles = new News.Collections.Articles({
     model:  News.Models.Article,
     url:    'https://content.guardianapis.com/search',
-    apiKey: '46x8g8hxfrxk5az6akhtz8rw'
+    apiKey: 'ce994b10-e106-46bb-a2d6-56a17c396c85'
   })
 
   var articlesView = new News.Views.Articles({
