@@ -49,6 +49,10 @@ html, body {
   margin-bottom: 1.7em;
 }
 
+.articles img {
+  width: 100% !important;
+}
+
 .globe {
   position: fixed;
   top:    0;
